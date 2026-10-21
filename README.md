@@ -1,5 +1,7 @@
 # agent-config-guard-bypass
 
+> 📖 **Read the write-up:** [The Path-Validation Bug That Let Copilot Register a Rogue MCP Server](https://webofmike.com/trailing-dot-mcp-config-bypass/)
+
 A 90-line reproduction of the bug class behind **CVE-2026-103572** (Visual
 Studio Copilot / SSMS, CVSS 8.8, patched by Microsoft on 2026-10-13): a file
 guard that validates a path as a raw string, then writes using a path the
